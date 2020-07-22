@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo+gitee搭建个人博客</title>
+    <title>hexo+github搭建个人博客</title>
     <url>/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p><strong>这里选用 Gitee 或者 Github 都可以部署，两者有以下细微差别：</strong></p>
 <ul>
@@ -12,7 +12,7 @@
 <ul>
 <li>安装 Node.js </li>
 <li>安装 Git</li>
-<li>要有Github/Gitee 账号</li>
+<li>要有Github账号</li>
 </ul>
 <p><strong>Hexo的安装和搭建：</strong></p>
 <p>首先在电脑上新建一个文件夹，作为博客的存放地址，我这里选择  <code>E:\Blog</code> ，然后右键选择 <code>Git Bash Here</code> 。</p>
@@ -28,13 +28,10 @@
 <p>执行以下命令生成静态文件并开启服务器。</p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">hexo generate </span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
-<p>至此，就可以在本地浏览器输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>查看博客了。此时的博客只能在本地预览，也就是说别人是访问不到你的博客的，接下来我们要将博客部署到Gitee/Github 上。下面以Gitee为例。</p>
-<p><strong>将博客部署到Gitee上：</strong></p>
-<ol>
-<li>到  <a href="https://gitee.com/" target="_blank" rel="noopener">码云 </a> 创建 Gitee 账号（已有忽略）</li>
-<li>新建仓库</li>
-<li>甲方双方的爸爸</li>
-</ol>
+<p>至此，就可以在本地浏览器输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>查看博客了。此时的博客只能在本地预览，也就是说别人是访问不到你的博客的，接下来我们要将博客部署到Gitee/Github 上。下面以Github为例。</p>
+<p><strong>将博客部署到Github上：</strong></p>
+<p>到  <a href="https://github.com/">github</a> 上创建 Github 账号（已有忽略）<br>新建仓库</p>
+<p><img src="/lzqwwww/lzqwwww.github.io.git/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.JPG" alt="logo"></p>
 ]]></content>
       <categories>
         <category>Hexo</category>
