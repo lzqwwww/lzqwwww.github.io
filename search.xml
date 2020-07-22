@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>hexo+gitee搭建个人博客</title>
-    <url>/blog/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <url>/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p><strong>这里选用 Gitee 或者 Github 都可以部署，两者有以下细微差别：</strong></p>
 <ul>
 <li>Gitee ： 国内站点，网络稳定高速，github访问有时不稳定。</li>
