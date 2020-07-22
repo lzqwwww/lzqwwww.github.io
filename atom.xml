@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/lzqwwww/lzqwwww.github.io.git/"/>
-  <updated>2020-07-22T08:03:33.299Z</updated>
+  <updated>2020-07-22T08:28:25.249Z</updated>
   <id>https://github.com/lzqwwww/lzqwwww.github.io.git/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决hexo图片不显示问题</title>
+    <link href="https://github.com/lzqwwww/lzqwwww.github.io.git/2020/07/22/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/"/>
+    <id>https://github.com/lzqwwww/lzqwwww.github.io.git/2020/07/22/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</id>
+    <published>2020-07-22T08:26:37.000Z</published>
+    <updated>2020-07-22T08:28:25.249Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决方案如下：</p><p>　　1. 在根目录下配置文件<code>_config.yml</code> 中有 <code>post_asset_folder:false改为true</code>。这样在建立文件时，<code>Hexo</code>会自动建立一个与文章同名的文件夹，这样就可以把与该文章相关的所有资源（图片）都放到那个文件夹里方便后面引用。如这里我放了一张test.jpg的图片。</p><p>　　2. git bash安装插件：npm install <a href="https://github.com/7ym0n/hexo-asset-image">https://github.com/7ym0n/hexo-asset-image</a> –save（这是个修改过的插件，经测试无问题），使用这个插件来引入图片，而不是网上那些方法里说的用传统md语法相对路径的方法。</p><p>　　3. 插入图片时用这种方式：<strong><em>\</em>{****% asset_img test.jpg This is an test image %**}*\</strong>***</p><p>　　　　　<strong><em>\</em>其中test.jpg就是你要引用的图片，我这里就是test.jpg，后面的This is an test image是图片描述，可以自己修改。**</strong></p><p>　　4. 这样就能成功显示了，测试下吧：hexo cl &amp;&amp; hexo g &amp;&amp; hexo d</p>]]></content>
+    
+    <summary type="html">
+    
+      解决hexo图片不显示问题
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://github.com/lzqwwww/lzqwwww.github.io.git/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://github.com/lzqwwww/lzqwwww.github.io.git/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo+github搭建个人博客</title>
