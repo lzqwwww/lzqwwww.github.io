@@ -31,10 +31,9 @@
 <p>至此，就可以在本地浏览器输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>查看博客了。此时的博客只能在本地预览，也就是说别人是访问不到你的博客的，接下来我们要将博客部署到Gitee/Github 上。下面以Gitee为例。</p>
 <p><strong>将博客部署到Gitee上：</strong></p>
 <ol>
-<li><p>到  <a href="https://gitee.com/">码云 </a> 创建 Gitee 账号（已有忽略）</p>
-</li>
-<li><p>新建仓库</p>
-</li>
+<li>到  <a href="https://gitee.com/">码云 </a> 创建 Gitee 账号（已有忽略）</li>
+<li>新建仓库</li>
+<li>甲方双方的</li>
 </ol>
 ]]></content>
       <categories>
