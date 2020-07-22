@@ -31,7 +31,7 @@
 <p>至此，就可以在本地浏览器输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>查看博客了。此时的博客只能在本地预览，也就是说别人是访问不到你的博客的，接下来我们要将博客部署到Gitee/Github 上。下面以Github为例。</p>
 <p><strong>将博客部署到Github上：</strong></p>
 <p>到  <a href="https://github.com/">github</a> 上创建 Github 账号（已有忽略）<br>新建仓库<br><img src="/lzqwwww/lzqwwww.github.io.git/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.JPG" alt="jkf"></p>
-<img src="/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.jpg" class title="This is an test image">
+
 <p>方法12</p>
 ]]></content>
       <categories>
