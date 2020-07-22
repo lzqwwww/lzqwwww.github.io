@@ -95,7 +95,7 @@
 <meta property="og:site_name" content="lzqwww">
 <meta property="og:description" content="记录自己第一次使用 Hexo + Github 搭建个人博客的过程。">
 <meta property="article:published_time" content="2020-07-21T05:52:26.000Z">
-<meta property="article:modified_time" content="2020-07-22T07:36:42.903Z">
+<meta property="article:modified_time" content="2020-07-22T08:03:33.299Z">
 <meta property="article:author" content="lzqwww">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -399,7 +399,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  736
+                  735
                 </span>
               
 
@@ -440,19 +440,17 @@
       
 
       
-        <p><strong>这里选用 Gitee 或者 Github 都可以部署，两者有以下细微差别：</strong></p>
+        <h6 id="选择合适的部署平台"><a href="#选择合适的部署平台" class="headerlink" title="选择合适的部署平台"></a>选择合适的部署平台</h6><p>这里选用 Gitee 或者 Github 都可以部署，两者有以下细微差别：</p>
 <ul>
 <li>Gitee ： 国内站点，网络稳定高速，github访问有时不稳定。</li>
 <li>Github：站点项目更新部署到github/gitee后，github会自动重新部署更新，失败后还会给你发邮件，gitee则需要到Gitee Pages 服务里手动更新(非会员用户)</li>
 </ul>
-<p><strong>需要事先准备好以下环境：</strong></p>
-<ul>
+<h6 id="事先准备环境"><a href="#事先准备环境" class="headerlink" title="事先准备环境"></a><strong>事先准备环境</strong></h6><ul>
 <li>安装 Node.js </li>
 <li>安装 Git</li>
 <li>要有Github账号</li>
 </ul>
-<p><strong>Hexo的安装和搭建：</strong></p>
-<p>首先在电脑上新建一个文件夹，作为博客的存放地址，我这里选择  <code>E:\Blog</code> ，然后右键选择 <code>Git Bash Here</code> 。</p>
+<h6 id="Hexo的安装和搭建"><a href="#Hexo的安装和搭建" class="headerlink" title="Hexo的安装和搭建"></a><strong>Hexo的安装和搭建</strong></h6><p>首先在电脑上新建一个文件夹，作为博客的存放地址，我这里选择  <code>E:\Blog</code> ，然后右键选择 <code>Git Bash Here</code> 。</p>
 <p>执行以下命令，安装Hexo。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
@@ -466,7 +464,7 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate </span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
 <p>至此，就可以在本地浏览器输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>查看博客了。此时的博客只能在本地预览，也就是说别人是访问不到你的博客的，接下来我们要将博客部署到Gitee/Github 上。下面以Github为例。</p>
-<p><strong>将博客部署到Github上：</strong><br>首先新建仓库。</p>
+<h6 id="将博客部署到Github上"><a href="#将博客部署到Github上" class="headerlink" title="将博客部署到Github上"></a><strong>将博客部署到Github上</strong></h6><p>首先新建仓库。</p>
 <p>点击<code>New Repository</code>。名称格式 <code>username.github.io</code>，这里的username要和github用户名保持一致。例如我的用户名是<code>lzqwwww</code>，那么我的名称就应该为 <code>lzqwwww.github.io</code>。</p>
 <p>然后生成SSH密钥。</p>
 <p>执行以下命令，一路回车。然后在<code>C:\Users\.ssh</code>下找到<code>id_rsa.pub</code>,打开并复制所有的内容。进入 <a href="https://github.com/settings/keys">SSH KEY</a> ，点击<code>New SSH Key</code> 将复制的内容粘贴在Key里，Title可任意起名。然后<code>Add SSH Key</code>。</p>
@@ -483,8 +481,7 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo c &amp;&amp; hexo g &amp;&amp; hexo d &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
 <p>至此部署结束，浏览器输入<code>https://username.github.io/</code>就能查看你的博客了。例如我的博客地址  <a href="https://lzqwwww.github.io/" target="_blank" rel="noopener">https://lzqwwww.github.io/</a>。</p>
-<p><strong>最后附上常用的Hexo命令：</strong></p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">hexo init # 初始化目录</span><br><span class="line">hexo new "postName" 或 hexo n "postName" # 新建文章</span><br><span class="line">hexo new draft "draftName" #新建草稿</span><br><span class="line">hexo new page "pageName" 或 hexo n "pageName" # 新建页面</span><br><span class="line">hexo publish "draftName" # 将草稿发布成为文章</span><br><span class="line">hexo clean 或 hexo c # 清除缓存</span><br><span class="line">hexo generate 或 hexo g # 生成网页在 public 目录有整个网站的文件</span><br><span class="line">hexo deploy 或 hexo d # 部署.deploy目录</span><br><span class="line">hexo server 或 hexo s # 启动本地服务器</span><br></pre></td></tr></table></figure>
+<h6 id="常用的Hexo命令"><a href="#常用的Hexo命令" class="headerlink" title="常用的Hexo命令"></a><strong>常用的Hexo命令</strong></h6><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">hexo init # 初始化目录</span><br><span class="line">hexo new "postName" 或 hexo n "postName" # 新建文章</span><br><span class="line">hexo new draft "draftName" #新建草稿</span><br><span class="line">hexo new page "pageName" 或 hexo n "pageName" # 新建页面</span><br><span class="line">hexo publish "draftName" # 将草稿发布成为文章</span><br><span class="line">hexo clean 或 hexo c # 清除缓存</span><br><span class="line">hexo generate 或 hexo g # 生成网页在 public 目录有整个网站的文件</span><br><span class="line">hexo deploy 或 hexo d # 部署.deploy目录</span><br><span class="line">hexo server 或 hexo s # 启动本地服务器</span><br></pre></td></tr></table></figure>
 
 
 
@@ -585,8 +582,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -674,6 +680,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#选择合适的部署平台"><span class="nav-number">1.</span> <span class="nav-text">选择合适的部署平台</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#事先准备环境"><span class="nav-number">2.</span> <span class="nav-text">事先准备环境</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Hexo的安装和搭建"><span class="nav-number">3.</span> <span class="nav-text">Hexo的安装和搭建</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#将博客部署到Github上"><span class="nav-number">4.</span> <span class="nav-text">将博客部署到Github上</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#常用的Hexo命令"><span class="nav-number">5.</span> <span class="nav-text">常用的Hexo命令</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -702,7 +724,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">736</span>
+    <span title="Site words total count">735</span>
   
 </div>
 
