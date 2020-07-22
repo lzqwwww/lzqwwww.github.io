@@ -5,9 +5,9 @@
   <subtitle>&quot;喜欢的事情要做到极致&quot;</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="https://gitee.com/lzqwww/blog/"/>
+  <link href="https://gitee.com/lzqwww/"/>
   <updated>2020-07-21T14:24:12.089Z</updated>
-  <id>https://gitee.com/lzqwww/blog/</id>
+  <id>https://gitee.com/lzqwww/</id>
   
   <author>
     <name>lzqwww</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo+gitee搭建个人博客</title>
-    <link href="https://gitee.com/lzqwww/blog/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://gitee.com/lzqwww/blog/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://gitee.com/lzqwww/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://gitee.com/lzqwww/2020/07/21/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-07-21T05:52:26.000Z</published>
     <updated>2020-07-21T14:24:12.089Z</updated>
     
@@ -32,10 +32,10 @@
     </summary>
     
     
-      <category term="Hexo" scheme="https://gitee.com/lzqwww/blog/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://gitee.com/lzqwww/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="https://gitee.com/lzqwww/blog/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://gitee.com/lzqwww/tags/Hexo/"/>
     
   </entry>
   
