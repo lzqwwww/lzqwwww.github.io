@@ -95,7 +95,7 @@
 <meta property="og:site_name" content="lzqwww">
 <meta property="og:description" content="解决hexo图片不显示问题">
 <meta property="article:published_time" content="2020-07-22T08:26:37.000Z">
-<meta property="article:modified_time" content="2020-07-22T10:18:11.762Z">
+<meta property="article:modified_time" content="2020-07-22T10:45:43.538Z">
 <meta property="article:author" content="lzqwww">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -399,7 +399,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  228
+                  233
                 </span>
               
 
@@ -440,8 +440,7 @@
       
 
       
-        <p>解决方案如下：</p>
-<ol>
+        <ol>
 <li><p>在根目录下配置文件<code>_config.yml</code> 中将 <code>post_asset_folder:false改为true</code>。这样在建立博客时，<code>Hexo</code>会自动建立一个与其同名的文件夹，用于存放与该文章相关的所有资源。这里我放一张图片<code>test.jpg</code>。</p>
 </li>
 <li><p>安装hexo-asset-image插件。使用这个插件来引入图片，而不是网上那些方法里说的用传统md语法相对路径的方法。</p>
@@ -450,10 +449,10 @@
 <p>注意：这是个修改过的插件，经测试无问题，之前用的别的几个插件都多多少少有些问题。</p>
 </li>
 <li><p>插入图片用这种方式：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img test.jpg This is an test image %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​    其中<code>test.jpg</code>就是要引用的图片，后面的<code>This is an test image</code>是图片描述，可自行修改。</p>
 </li>
-</ol>
-<p>　其中<code>test.jpg</code>就是要引用的图片，后面的<code>This is an test image</code>是图片描述，可自行修改。</p>
-<ol start="4">
 <li><p>执行下面命令，查看是否成功显示。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo c &amp;&amp; hexo g &amp;&amp; hexo d &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
@@ -517,6 +516,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/07/22/%E7%B1%BB%E6%95%B0%E7%BB%84%E8%BD%AC%E6%95%B0%E7%BB%84/" rel="prev" title="类数组转数组">
+                类数组转数组 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -588,7 +591,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -599,7 +602,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -610,7 +613,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -685,7 +688,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">963</span>
+    <span title="Site words total count">973</span>
   
 </div>
 
